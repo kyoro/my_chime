@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594C559516626DD000AAD333 /* anochime_pub.png in Resources */ = {isa = PBXBuildFile; fileRef = 594C559416626DD000AAD333 /* anochime_pub.png */; };
+		5985EAA71657BFE400F284CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5985EAA61657BFE400F284CA /* UIKit.framework */; };
+		5985EAA91657BFE400F284CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5985EAA81657BFE400F284CA /* Foundation.framework */; };
+		5985EAAB1657BFE400F284CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5985EAAA1657BFE400F284CA /* CoreGraphics.framework */; };
+		5985EAB11657BFE400F284CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5985EAAF1657BFE400F284CA /* InfoPlist.strings */; };
+		5985EAB31657BFE400F284CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5985EAB21657BFE400F284CA /* main.m */; };
+		5985EAB71657BFE400F284CA /* net_hakamastyle_appAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5985EAB61657BFE400F284CA /* net_hakamastyle_appAppDelegate.m */; };
+		5985EABA1657BFE400F284CA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5985EAB81657BFE400F284CA /* MainStoryboard.storyboard */; };
+		5985EACC1657DCFF00F284CA /* EasyHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5985EACB1657DCFF00F284CA /* EasyHttp.m */; };
+		59A0B46B165BB90E002F5FD1 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A0B46A165BB90E002F5FD1 /* LoginController.m */; };
+		59A0B472165BCA9D002F5FD1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A0B471165BCA9D002F5FD1 /* AudioToolbox.framework */; };
+		59A0B476165BD31F002F5FD1 /* famima.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59A0B475165BD31F002F5FD1 /* famima.mp3 */; };
+		59D581971659ECF600C3EE88 /* WToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D581961659ECF600C3EE88 /* WToast.m */; };
+		59F8410E1657FC2000A67176 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F8410D1657FC2000A67176 /* QuartzCore.framework */; };
+		59F841111657FC9B00A67176 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F841101657FC9B00A67176 /* SVProgressHUD.m */; };
+		59F841171658FBAE00A67176 /* ViewMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F841161658FBAE00A67176 /* ViewMainController.m */; };
+		59FD1CC71660EF3A00D4FB92 /* S2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59FD1CC61660EF3A00D4FB92 /* S2.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		594C559416626DD000AAD333 /* anochime_pub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anochime_pub.png; sourceTree = "<group>"; };
+		5985EAA21657BFE400F284CA /* MyChime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5985EAA61657BFE400F284CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5985EAA81657BFE400F284CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5985EAAA1657BFE400F284CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5985EAAE1657BFE400F284CA /* MyChime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyChime-Info.plist"; sourceTree = "<group>"; };
+		5985EAB01657BFE400F284CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5985EAB21657BFE400F284CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5985EAB41657BFE400F284CA /* MyChime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyChime-Prefix.pch"; sourceTree = "<group>"; };
+		5985EAB51657BFE400F284CA /* net_hakamastyle_appAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net_hakamastyle_appAppDelegate.h; sourceTree = "<group>"; };
+		5985EAB61657BFE400F284CA /* net_hakamastyle_appAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = net_hakamastyle_appAppDelegate.m; sourceTree = "<group>"; };
+		5985EAB91657BFE400F284CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5985EACA1657DCFF00F284CA /* EasyHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyHttp.h; sourceTree = "<group>"; };
+		5985EACB1657DCFF00F284CA /* EasyHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyHttp.m; sourceTree = "<group>"; };
+		59A0B469165BB90E002F5FD1 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		59A0B46A165BB90E002F5FD1 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		59A0B471165BCA9D002F5FD1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		59A0B475165BD31F002F5FD1 /* famima.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = famima.mp3; sourceTree = "<group>"; };
+		59D581951659ECF600C3EE88 /* WToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WToast.h; sourceTree = "<group>"; };
+		59D581961659ECF600C3EE88 /* WToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WToast.m; sourceTree = "<group>"; };
+		59F8410D1657FC2000A67176 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		59F8410F1657FC9B00A67176 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		59F841101657FC9B00A67176 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		59F841151658FBAE00A67176 /* ViewMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMainController.h; sourceTree = "<group>"; };
+		59F841161658FBAE00A67176 /* ViewMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMainController.m; sourceTree = "<group>"; };
+		59FD1CC61660EF3A00D4FB92 /* S2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = S2.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5985EA9F1657BFE400F284CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A0B472165BCA9D002F5FD1 /* AudioToolbox.framework in Frameworks */,
+				59F8410E1657FC2000A67176 /* QuartzCore.framework in Frameworks */,
+				5985EAA71657BFE400F284CA /* UIKit.framework in Frameworks */,
+				5985EAA91657BFE400F284CA /* Foundation.framework in Frameworks */,
+				5985EAAB1657BFE400F284CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5985EA971657BFE400F284CA = {
+			isa = PBXGroup;
+			children = (
+				59A0B471165BCA9D002F5FD1 /* AudioToolbox.framework */,
+				59F8410D1657FC2000A67176 /* QuartzCore.framework */,
+				5985EAAC1657BFE400F284CA /* MyChime */,
+				5985EAA51657BFE400F284CA /* Frameworks */,
+				5985EAA31657BFE400F284CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5985EAA31657BFE400F284CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5985EAA21657BFE400F284CA /* MyChime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5985EAA51657BFE400F284CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5985EAA61657BFE400F284CA /* UIKit.framework */,
+				5985EAA81657BFE400F284CA /* Foundation.framework */,
+				5985EAAA1657BFE400F284CA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5985EAAC1657BFE400F284CA /* MyChime */ = {
+			isa = PBXGroup;
+			children = (
+				594C559416626DD000AAD333 /* anochime_pub.png */,
+				59A0B475165BD31F002F5FD1 /* famima.mp3 */,
+				59FD1CC61660EF3A00D4FB92 /* S2.mp3 */,
+				59D581951659ECF600C3EE88 /* WToast.h */,
+				59D581961659ECF600C3EE88 /* WToast.m */,
+				5985EAB51657BFE400F284CA /* net_hakamastyle_appAppDelegate.h */,
+				5985EAB61657BFE400F284CA /* net_hakamastyle_appAppDelegate.m */,
+				5985EAB81657BFE400F284CA /* MainStoryboard.storyboard */,
+				5985EAAD1657BFE400F284CA /* Supporting Files */,
+				5985EACA1657DCFF00F284CA /* EasyHttp.h */,
+				5985EACB1657DCFF00F284CA /* EasyHttp.m */,
+				59F8410F1657FC9B00A67176 /* SVProgressHUD.h */,
+				59F841101657FC9B00A67176 /* SVProgressHUD.m */,
+				59F841151658FBAE00A67176 /* ViewMainController.h */,
+				59F841161658FBAE00A67176 /* ViewMainController.m */,
+				59A0B469165BB90E002F5FD1 /* LoginController.h */,
+				59A0B46A165BB90E002F5FD1 /* LoginController.m */,
+			);
+			path = MyChime;
+			sourceTree = "<group>";
+		};
+		5985EAAD1657BFE400F284CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5985EAAE1657BFE400F284CA /* MyChime-Info.plist */,
+				5985EAAF1657BFE400F284CA /* InfoPlist.strings */,
+				5985EAB21657BFE400F284CA /* main.m */,
+				5985EAB41657BFE400F284CA /* MyChime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5985EAA11657BFE400F284CA /* MyChime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5985EAC01657BFE400F284CA /* Build configuration list for PBXNativeTarget "MyChime" */;
+			buildPhases = (
+				5985EA9E1657BFE400F284CA /* Sources */,
+				5985EA9F1657BFE400F284CA /* Frameworks */,
+				5985EAA01657BFE400F284CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyChime;
+			productName = MyChime;
+			productReference = 5985EAA21657BFE400F284CA /* MyChime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5985EA991657BFE400F284CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = net.hakamastyle.app;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5985EA9C1657BFE400F284CA /* Build configuration list for PBXProject "MyChime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5985EA971657BFE400F284CA;
+			productRefGroup = 5985EAA31657BFE400F284CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5985EAA11657BFE400F284CA /* MyChime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5985EAA01657BFE400F284CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5985EAB11657BFE400F284CA /* InfoPlist.strings in Resources */,
+				5985EABA1657BFE400F284CA /* MainStoryboard.storyboard in Resources */,
+				59A0B476165BD31F002F5FD1 /* famima.mp3 in Resources */,
+				59FD1CC71660EF3A00D4FB92 /* S2.mp3 in Resources */,
+				594C559516626DD000AAD333 /* anochime_pub.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5985EA9E1657BFE400F284CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5985EAB31657BFE400F284CA /* main.m in Sources */,
+				5985EAB71657BFE400F284CA /* net_hakamastyle_appAppDelegate.m in Sources */,
+				5985EACC1657DCFF00F284CA /* EasyHttp.m in Sources */,
+				59F841111657FC9B00A67176 /* SVProgressHUD.m in Sources */,
+				59F841171658FBAE00A67176 /* ViewMainController.m in Sources */,
+				59D581971659ECF600C3EE88 /* WToast.m in Sources */,
+				59A0B46B165BB90E002F5FD1 /* LoginController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5985EAAF1657BFE400F284CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5985EAB01657BFE400F284CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5985EAB81657BFE400F284CA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5985EAB91657BFE400F284CA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5925F83916621FEF00C99BF1 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		5925F83A16621FEF00C99BF1 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyChime/MyChime-Prefix.pch";
+				INFOPLIST_FILE = "MyChime/MyChime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+		5985EABE1657BFE400F284CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5985EABF1657BFE400F284CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5985EAC11657BFE400F284CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyChime/MyChime-Prefix.pch";
+				INFOPLIST_FILE = "MyChime/MyChime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5985EAC21657BFE400F284CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kyosuke Inoue (Z53C89ET5N)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyChime/MyChime-Prefix.pch";
+				INFOPLIST_FILE = "MyChime/MyChime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "60D65CA9-F0E4-4BD3-868E-36BBC7C7F45C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5985EA9C1657BFE400F284CA /* Build configuration list for PBXProject "MyChime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5985EABE1657BFE400F284CA /* Debug */,
+				5985EABF1657BFE400F284CA /* Release */,
+				5925F83916621FEF00C99BF1 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5985EAC01657BFE400F284CA /* Build configuration list for PBXNativeTarget "MyChime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5985EAC11657BFE400F284CA /* Debug */,
+				5985EAC21657BFE400F284CA /* Release */,
+				5925F83A16621FEF00C99BF1 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5985EA991657BFE400F284CA /* Project object */;
+}
